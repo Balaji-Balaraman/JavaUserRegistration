@@ -20,6 +20,7 @@
         response.sendRedirect("login.jsp");
     } catch (IOException e) {
         e.printStackTrace(); // Handle the IOException
+                 out.println("<p>Redirect to login page failed. Please <a href='login.jsp'>click here</a> to continue.</p>");
     }
 %>
 </body>
